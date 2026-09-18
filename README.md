@@ -37,6 +37,9 @@ The setup cell downloads about 53 MB: the trained model (22.6 MB) and a
 | `workshop/Helmet_Detection_Participant_Colab_BACKUP_executed.ipynb` | The same notebook with every output already filled in. Use it if you lose your Colab session, or to read later. |
 | `workshop/full_pipeline_executed.ipynb` | A longer walkthrough of all eight modules. Good reading after the workshop. |
 
+New to machine learning? **[GLOSSARY.md](GLOSSARY.md)** explains every term used
+in the workshop, in plain words.
+
 ### What you should see
 
 On the supplied clip, with the thresholds as shipped:
