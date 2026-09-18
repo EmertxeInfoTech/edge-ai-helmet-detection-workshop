@@ -1,0 +1,6 @@
+/.quarto/
+**/*.quarto_ipynb
+/_site/
+.DS_Store
+models/*.engine
+models/*.onnx

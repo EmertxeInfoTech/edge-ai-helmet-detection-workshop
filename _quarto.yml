@@ -1,0 +1,47 @@
+project:
+  type: website
+
+website:
+  title: "Helmet Violation Detection"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Pipeline Stages
+        menu:
+          - href: notebooks/config.ipynb
+            text: Configuration
+          - href: notebooks/detection.ipynb
+            text: Detection
+          - href: notebooks/geometry.ipynb
+            text: Geometry Helpers
+          - href: notebooks/association.ipynb
+            text: Association
+          - href: notebooks/rm_instance.ipynb
+            text: Tracking Instances
+          - href: notebooks/temporal.ipynb
+            text: Violation Logic
+          - href: notebooks/visualization.ipynb
+            text: Visualization
+      - text: Pipeline
+        menu:
+          - href: notebooks/quick_pipeline.ipynb
+            text: Quick Access
+          - href: final/main.ipynb
+            text: Complete Pipeline
+      - href: notebooks/edge_deployment.ipynb
+        text: Deployment
+    right:
+      - icon: github
+        href: https://github.com/EmertxeInfoTech/edge-ai-helmet-detection-workshop
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto

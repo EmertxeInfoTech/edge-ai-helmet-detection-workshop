@@ -1,0 +1,8 @@
+main_2.ipynb
+__pycache__
+anpr.py
+# Generated videos are ignored, but the workshop sample clip is tracked.
+*.mp4
+!sample_videos/*.mp4
+*.xml
+pairs.json
